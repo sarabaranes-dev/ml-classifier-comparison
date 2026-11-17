@@ -105,7 +105,7 @@ pip install -r requirements.txt jupyter
 jupyter notebook mnist_rework.ipynb
 ```
 
-All splits and models use fixed random seeds, so a full re-run gives the same numbers. The notebook runs SGD, QDA and MLP twice: the second run (extended grids) is the one reported above.
+All splits and models use fixed random seeds, so a full re-run gives the same numbers. The notebook runs SGD three times and QDA and MLP twice: the last run (extended grids) is the one reported above.
 
 ## Repository structure
 
@@ -220,7 +220,7 @@ I grafici sono quelli della versione inglese qui sopra. Sulla divisione 1 di 10 
 
 **In locale:** usa i comandi della sezione *How to run* in inglese.
 
-Tutte le divisioni e tutti i modelli usano seed fissi, quindi una nuova esecuzione dà gli stessi numeri. Il notebook esegue due volte SGD, QDA e MLP: i risultati riportati sono quelli della seconda esecuzione (griglie allargate).
+Tutte le divisioni e tutti i modelli usano seed fissi, quindi una nuova esecuzione dà gli stessi numeri. Il notebook esegue SGD tre volte e QDA e MLP due volte: i risultati riportati sono quelli dell'ultima esecuzione (griglie allargate).
 
 ### Tecnologie
 
